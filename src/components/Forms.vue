@@ -59,17 +59,6 @@
         <label for="floatingTextarea2">Message:</label>
       </div>
     </div>
-    <!-- <div class="col-12">
-      <div class="mb-3">
-        <label for="formFile" class="form-label">Upload file:</label>
-        <input
-          class="form-control"
-          type="file"
-          id="formFile"
-          @change="handleFileChange"
-        />
-      </div>
-    </div> -->
     <div class="col-12">
       <button type="submit" class="btn btn-primary">Send Message</button>
     </div>
@@ -136,5 +125,16 @@ export default {
 </script>
 
 <style>
-
+.btn-primary{
+  background-color: rgb(68, 57, 204);
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-block: 1rem;
+}
 </style>

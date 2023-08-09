@@ -8,7 +8,7 @@ import Forms from './components/Forms.vue';
   <div class="formContainer">
     <Forms/>
   </div>
-  <h2>Applications</h2>
+  <h2>Applicants</h2>
   <div class="cardsContainer">
     <Cards/>
   </div>

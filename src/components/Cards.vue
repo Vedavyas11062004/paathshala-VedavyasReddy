@@ -3,9 +3,8 @@
     <!-- <img :src="imageSrc" class="card-img-top" :alt="altText" /> -->
     <div class="card-body">
       <h5 class="card-title">{{ item.name }}</h5>
-      <p class="card-text">{{ item.email }}</p>
-      <p class="card-text">{{ item.phoneno }}</p>
-      <p class="card-text">{{ item.jobTitle }}</p>
+      <p class="card-text"><span>Email: </span>{{ item.email }}</p>
+      <p class="card-text"><span>JobTitle: </span>{{ item.jobTitle }}</p>
       <p class="card-text">{{ item.comment }}</p>
       <a href="#" class="btn btn-primary">Veiw Profile</a>
     </div>
@@ -67,7 +66,7 @@ export default {
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .card-title {

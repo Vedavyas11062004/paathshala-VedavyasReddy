@@ -7,7 +7,7 @@
       <p class="card-text">{{ item.phoneno }}</p>
       <p class="card-text">{{ item.jobTitle }}</p>
       <p class="card-text">{{ item.comment }}</p>
-      <!-- <a href="#" class="btn btn-primary">{{ buttonText }}</a> -->
+      <a href="#" class="btn btn-primary">Veiw Profile</a>
     </div>
   </div>
 </template>
@@ -65,6 +65,9 @@ export default {
 
 .card-body {
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card-title {
@@ -74,11 +77,11 @@ export default {
 
 .card-text {
   color: #666;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
 }
 
 .btn-primary {
-  background-color: #007bff;
+  background-color: rgb(68, 57, 204);
   border: none;
   color: white;
   padding: 0.5rem 1rem;
@@ -87,5 +90,7 @@ export default {
   display: inline-block;
   font-size: 1rem;
   border-radius: 5px;
+  margin-block: 1rem;
+  width: 100%;
 }
 </style>

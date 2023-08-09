@@ -136,7 +136,5 @@ export default {
 </script>
 
 <style>
-form {
-  width: 800px;
-}
+
 </style>
